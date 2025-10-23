@@ -7,3 +7,50 @@
 ```shell
 npm install --legacy-peer-deps
 ```
+## Appointment
+POST api/v1/appointment/  -> Agendar cita
+GET api/v1/appointment/user  -> Cita del usuario
+DELETE api/v1/appointment/:eventId  -> Eliminar cita del usuario
+
+
+## User
+GET api/v1/user/me  -> Informacion del usuario
+POST api/v1/user/avatar  -> Subir avatar
+DELETE api/v1/me  -> Eliminar usuario
+
+## Auth
+
+POST api/v1/auth/login  -> Iniciar sesion
+POST api/v1/auth/register  -> Registrarse
+POST api/v1/auth/verify  -> Verificar si el usuario esta loggeado
+POST api/v1/auth/logout  -> Cerrar sesion
+
+## Car
+POST api/v1/car/add  -> Aniadir coche
+GET api/v1/car/myCars  -> Obtener coches del usuario
+GET api/v1/car/allCars  -> Obtener todos los coches
+
+| Método | Endpoint                      | Descripción               |
+| ------ | ----------------------------- | ------------------------- |
+| POST   | `api/v1/appointment/`         | Agendar cita              |
+| GET    | `api/v1/appointment/user`     | Obtener citas del usuario |
+| DELETE | `api/v1/appointment/:eventId` | Eliminar cita del usuario |
+
+| Método | Endpoint             | Descripción             |
+| ------ | -------------------- | ----------------------- |
+| GET    | `api/v1/user/me`     | Información del usuario |
+| POST   | `api/v1/user/avatar` | Subir avatar            |
+| DELETE | `api/v1/me`          | Eliminar usuario        |
+
+| Método | Endpoint               | Descripción                           |
+| ------ | ---------------------- | ------------------------------------- |
+| POST   | `api/v1/auth/login`    | Iniciar sesión                        |
+| POST   | `api/v1/auth/register` | Registrarse                           |
+| POST   | `api/v1/auth/verify`   | Verificar si el usuario está logueado |
+| POST   | `api/v1/auth/logout`   | Cerrar sesión                         |
+
+| Método | Endpoint             | Descripción                |
+| ------ | -------------------- | -------------------------- |
+| POST   | `api/v1/car/add`     | Añadir coche               |
+| GET    | `api/v1/car/myCars`  | Obtener coches del usuario |
+| GET    | `api/v1/car/allCars` | Obtener todos los coches   |
