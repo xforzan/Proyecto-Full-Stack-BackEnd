@@ -70,6 +70,45 @@ node server.js
 }
 ```
 
+### 🚗 Coche
+```json
+{
+  "vin": "W1K1XXXXXXXXXXXXX",
+  "km": 999999,
+  "images": [
+    "https://res.cloudinary.com/demo/vehicles/W1K1XXXXXXXXXXXXX/image1.webp",
+    "https://res.cloudinary.com/demo/vehicles/W1K1XXXXXXXXXXXXX/image2.webp",
+    "https://res.cloudinary.com/demo/vehicles/W1K1XXXXXXXXXXXXX/image3.webp"
+  ],
+  "user": {
+    "$oid": "USER_ID_EXAMPLE"
+  },
+  "specs": {
+    "longType": "Mercedes-AMG A 45 S 4MATIC+ Compacto",
+    "marca": "Mercedes-Benz",
+    "modelo": "A",
+    "version": "LZAZ150A",
+    "carroceria": "Compacto",
+    "motor": "1991",
+    "combustible": "Gasolina",
+    "cambio": "automático",
+    "cilindros": "4",
+    "traccion": "4x4 (AWD)",
+    "potenciaKW": "310",
+    "potenciaCV": "421",
+    "parNm": "500",
+    "aceleracion": "3.9",
+    "velocidadMax": "270",
+    "neumaticoDelantero": "245/35 ZR19 93Y XL",
+    "neumaticoTrasero": "245/35 ZR19 93Y XL",
+    "emisionesCO2": "206",
+    "claseEmisiones": "F",
+    "colorEmisiones": "#FF886D"
+  }
+}
+
+```
+
 ## 📚 Endpoints principales
 
 ### 📅 Citas
