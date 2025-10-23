@@ -109,6 +109,29 @@ node server.js
 
 ```
 
+
+## 🌱 Semillas
+- Para poblar la base de datos con datos iniciales disponemos de **2 seeds**: una para **coches** y otra para **usuarios**.
+- Se ejecutan las semillas de manera simultania mediante este comando:
+
+```bash
+npm run seed
+```
+
+### 🔐 Contraseñas de ejemplo
+- Todos los usuarios tienen como contraseña por defecto: `1234`  
+- Las contraseñas se insertan **hashed** en la base de datos (bcrypt).
+
+
+### 📁 Estructura de carpetas
+/seeds
+├─ Cars
+│ ├─ cars.csv
+│ └─ seedCars.js
+└─ Users
+├─ users.csv
+└─ seedUsers.js
+
 ## 📚 Endpoints principales
 
 ### 📅 Citas
