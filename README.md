@@ -132,13 +132,13 @@ npm run seed
 
 
 ### 📁 Estructura de carpetas
-/seeds
-├─ Cars
-│ ├─ cars.csv
-│ └─ seedCars.js
-└─ Users
-├─ users.csv
-└─ seedUsers.js
+/seeds `/n`
+├─ Cars `/n`
+│ ├─ cars.csv `/n`
+│ └─ seedCars.js `/n`
+└─ Users `/n`
+├─ users.csv `/n`
+└─ seedUsers.js `/n`
 
 ## 📚 Endpoints principales
 
