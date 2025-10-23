@@ -117,6 +117,14 @@ node server.js
 ```bash
 npm run seed
 ```
+### 🖥️ Salida esperada
+
+```bash
+✅ Conectado a MongoDB
+✅ Seed de Vehicles cargada correctamente
+✅ Conectado a MongoDB
+✅ Seed de Users cargada correctamente
+```
 
 ### 🔐 Contraseñas de ejemplo
 - Todos los usuarios tienen como contraseña por defecto: `1234`  
