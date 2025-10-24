@@ -197,7 +197,6 @@ npm run seed
 | ------ | -------------------- | -------------------------- |
 | **POST**   | `api/v1/car/add`     | Añadir coche               |
 | **GET**    | `api/v1/car/myCars`  | Obtener coches del usuario |
-| **GET**   | `api/v1/car/allCars` | Obtener todos los coches   |
 
 
 

@@ -94,14 +94,4 @@ const myCars = async (req, res) => {
   }
 };
 
-
-const allCars = async (req,res) =>{
-  try{
-    const vehiculos = await Vehicle.find()
-    res.status(200).json({vehiculos})
-  }catch (error){
-    return res.status(500).json({message: "Ha habido un problema", error})
-  }
-}
-
 module.exports = { addVehicle, myCars, allCars };
