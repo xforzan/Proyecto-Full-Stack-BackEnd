@@ -117,7 +117,7 @@ node server.js
 
 ## 🌱 Semillas
 - Para poblar la base de datos con datos iniciales disponemos de **2 seeds**: una para **coches** y otra para **usuarios**.
-- Se ejecutan las semillas de manera simultania mediante este comando:
+- Se ejecutan las semillas de manera simultanea mediante este comando:
 
 ```bash
 npm run seed
