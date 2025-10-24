@@ -94,4 +94,4 @@ const myCars = async (req, res) => {
   }
 };
 
-module.exports = { addVehicle, myCars, allCars };
+module.exports = { addVehicle, myCars };
