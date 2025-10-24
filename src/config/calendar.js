@@ -9,7 +9,7 @@ const auth = new google.auth.GoogleAuth({
 });
 
 const calendar = google.calendar({ version: "v3", auth });
-const calendarId = "207f67e607ff0ac9d2a5bf816416f81eeb74fe9105e745379d9e1d829879f45b@group.calendar.google.com";
+const calendarId = process.env.CALENDAR_ID;
 const timeZone = "Europe/Madrid";
 
 async function checkConnection() {
