@@ -45,7 +45,7 @@ cd Proyecto-Full-Stack-BackEnd/
 ```bash
 npm install --legacy-peer-deps
 ```
-### 4️⃣ Configurar archivo `.dev` dentro de la carpeta server con las variables
+### 4️⃣ Configurar archivo `.dev` dentro de la carpeta raíz con las variables
 ```bash
 PORT
 DB_URL
@@ -55,6 +55,23 @@ CLOUDINARY_API_SECRET
 CLOUDINARY_API_KEY
 MERCEDES_API_KEY
 CALENDAR_ID
+```
+
+### 5️⃣ Configurar archivo `service-account.json` dentro de la carpeta config con las variables
+```bash
+{
+  "type":
+  "project_id":
+  "private_key_id":
+  "private_key": 
+  "client_email":
+  "client_id":
+  "auth_uri":
+  "token_uri": 
+  "auth_provider_x509_cert_url":
+  "client_x509_cert_url": 
+  "universe_domain": 
+}
 ```
 ## ▶️ Ejecución del proyecto
 ### Modo desarrollo (ejecuta servidor)
