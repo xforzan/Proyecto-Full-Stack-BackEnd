@@ -1,7 +1,7 @@
 # Proyecto 3 BackEnd
 
 
-Bienvenid@s a **Proyecto 3 - BackEnd**, un proyecto desarrollado con **Node.js**, **Express**, **Vite**, **React** y **MongoDB**.  
+Bienvenid@s a **Proyecto 3 - BackEnd**, un proyecto desarrollado con **Node.js**, **Express**, **MongoDB**.  
 Este proyecto sirve como base para aprender y practicar el desarrollo de aplicaciones full-stack modernas.
 
 ## ✨ Descripción general
@@ -13,8 +13,7 @@ Esto permite ofrecer una experiencia fluida, rápida y personalizada tanto para 
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 ![Node.js](https://img.shields.io/badge/Node.js-22.x-brightgreen)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-lightgreen)
-![Vite](https://img.shields.io/badge/Vite-7.0-yellow)
-![React](https://img.shields.io/badge/React-19-blue)
+
 
 ---
 
