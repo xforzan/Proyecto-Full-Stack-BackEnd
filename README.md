@@ -1,8 +1,13 @@
 # Proyecto 3 BackEnd
 
 
-Bienvenid@s a **Proyecto 3 - BackEnd**, una proyecto desarrollado con **Node.js**, **Express**, **Vite**, **React** y **MongoDB**.  
+Bienvenid@s a **Proyecto 3 - BackEnd**, un proyecto desarrollado con **Node.js**, **Express**, **Vite**, **React** y **MongoDB**.  
 Este proyecto sirve como base para aprender y practicar el desarrollo de aplicaciones full-stack modernas.
+
+## ✨ Descripción general
+
+La plataforma facilita a los clientes la gestión de sus vehículos y citas mediante el VIN (Vehicle Identification Number), con el cual se obtienen automáticamente los datos del vehículo.
+Esto permite ofrecer una experiencia fluida, rápida y personalizada tanto para los usuarios como para el personal del taller.
 
 [![Made by Xforzan](https://img.shields.io/badge/Made%20by-Xforzan-blue)](https://github.com/xforzan)
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange)
