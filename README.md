@@ -57,7 +57,7 @@ MERCEDES_API_KEY
 CALENDAR_ID
 ```
 
-### 5️⃣ Configurar archivo `service-account.json` dentro de la carpeta config con las variables
+### 5️⃣ Configurar archivo `service-account.json` dentro de la carpeta config con los datos obtenidos de Google Calendar API
 ```bash
 {
   "type":
