@@ -46,7 +46,7 @@ git clone https://github.com/xforzan/Proyecto-Full-Stack-BackEnd
 cd Proyecto-Full-Stack-BackEnd/
 ```
 
-### 3️⃣ Instalar las dependencias del cliente y del servidor
+### 3️⃣ Instalar las dependencias del servidor
 ```bash
 npm install --legacy-peer-deps
 ```
