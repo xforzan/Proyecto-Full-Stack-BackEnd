@@ -18,6 +18,7 @@ Este proyecto sirve como base para aprender y practicar el desarrollo de aplicac
 - 🖼️ **Cloudinary** para subir y almacenar los avatares
 - 🔐 **Autenticación con JWT** lista para implementar
 - 📅 **Google Calendar API** para agendar citas
+- 🚗 **Mercedes API** para obtener los datos de los vehículos mediante el VIN
 - 📦 **Estructura modular** y fácil de escalar
 
 
