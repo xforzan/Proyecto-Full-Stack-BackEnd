@@ -18,7 +18,7 @@ Este proyecto sirve como base para aprender y practicar el desarrollo de aplicac
 - 🌐 **API RESTful** con rutas organizadas
 - 🗄️ **MongoDB + Mongoose** para manejo de base de datos
 - 🖼️ **Cloudinary** para subir y almacenar los avatares
-- 🔐 **Autenticación con JWT** lista para implementar
+- 🔐 **Autenticación con JWT** para autenticar a los usuarios
 - 📅 **Google Calendar API** para agendar citas
 - 🚗 **Mercedes API** para obtener los datos de los vehículos mediante el VIN
 - 📦 **Estructura modular** y fácil de escalar
