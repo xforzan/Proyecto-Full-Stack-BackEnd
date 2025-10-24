@@ -89,7 +89,7 @@ const logOut = (req,res) =>{
     if(!req.isLoggedIn ){
       return res.status(500).json({message:"Ya esta cerrada la sesion"})
     }
-    res.clearCookie('token', { httpOnly: true, secure: true });
+    res.clearCookie('token', { httpOnly: true, secure: true, sameSite: "none",});
     res.status(200).json({ message: 'Sesión cerrada' });
   } catch (error) {
     return res.status(500).json({message:"Ha habido un problema al cerrar sesion", error})
