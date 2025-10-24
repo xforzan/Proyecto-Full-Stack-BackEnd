@@ -8,6 +8,7 @@ Este proyecto sirve como base para aprender y practicar el desarrollo de aplicac
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 ![Node.js](https://img.shields.io/badge/Node.js-22.x-brightgreen)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-lightgreen)
+![Vite](https://img.shields.io/badge/Vite-7.0-yellow)
 ![React](https://img.shields.io/badge/React-19-blue)
 
 ---
